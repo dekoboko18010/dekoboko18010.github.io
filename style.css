@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #191970;
+  --theme-color: #00a0a0;
 }
 
 * {
@@ -18,7 +18,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #433;
+  color: #333;
+  background-color: #fafafa; /* ← この行を追加して好きな色に変える */
 }
 
 /* --------------------
@@ -72,6 +73,6 @@ th {
   color: #fff;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px #191970;
   padding: 0.5rem;
 }
